@@ -1,3 +1,3 @@
-# angular-nzueeh
+# Angular - "My Store" Tutorial
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-nzueeh)
+This is a practice-project working through the [Getting Started](https://angular.io/start) (My Store) tutorial available in the Angular Docs.
