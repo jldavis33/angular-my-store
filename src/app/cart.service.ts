@@ -25,4 +25,12 @@ export class CartService {
         this.items = [];
         return this.items;
     }
+
+    getShippingPrices() {
+        interface returnType {
+            type: string;
+            price: number;
+        }
+        return this.http.get<returnType[]>('/assets/shipping.json');
+    }
 }
